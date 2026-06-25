@@ -9,10 +9,20 @@
   </header>
 
   <div class="plant-add__photo">
-    <div class="photo-upload">
+    <div class="photo-upload" @click="triggerFileInput">
+    <img v-if="photoPreview" :src="photoPreview" class="photo-upload__preview" />
+    <template v-else>
       <i class="ti ti-camera-plus" aria-hidden="true"></i>
       <span>사진 추가</span>
+    </template>
     </div>
+    <input 
+    ref="fileInput"
+    type="file"
+    accept="image/*"
+    @change="handlePhotoChange"
+    style="display: none;"
+    />
   </div>
 
   <form class="plant-add__form">
@@ -58,6 +68,24 @@ const species = ref('')
 const adoptedDate = ref('')
 const wateringCycle = ref(7)
 
+//사진 업로드
+const fileInput = ref(null)
+const photoPreview = ref(null)
+
+function triggerFileInput() {
+  fileInput.value.click()
+}
+
+function handlePhotoChange(event) {
+  const file = event.target.files[0]
+  if (!file) return
+
+  const reader = new FileReader()
+  reader.onload = (e) => {
+    photoPreview.value = e.target.result
+  }
+  reader.readAsDataURL(file)
+}
 
 
 const router = useRouter()
