@@ -1,8 +1,14 @@
 import { defineStore } from 'pinia'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 export const usePlantStore = defineStore('plant', () => {
-  const plants = ref([])
+  // localStorage에서 저장된 게 있으면 가져오고, 없으면 빈 배열
+  const saved = localStorage.getItem('plants')
+  const plants = ref(saved ? JSON.parse(saved) : [])
+
+  watch(plants, (newValue) => {
+    localStorage.setItem('plants', JSON.stringify(newValue))
+  }, { deep:true})
 
   function addPlant(plant) {
     plants.value.push({ id: Date.now(), ...plant })

@@ -22,10 +22,10 @@
 
   <ul class="plant-list">
     <PlantCard 
-    v-for="plant in plants" 
+    v-for="plant in plantStore.plants" 
     :key="plant.id"
     :name="plant.name"
-    :value="plant.value"
+    :value="plant.species"
     :status="plant.status"
     />
   </ul>
