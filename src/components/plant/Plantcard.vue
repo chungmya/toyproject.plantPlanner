@@ -13,13 +13,20 @@
         <p class="plant-card__type">{{ value }}</p>
       </div>
       <span class="badge badge--safe">D+3</span>
+      <button class="plant-card__delete" @click="$emit('delete', id)">
+       <i class="ti ti-trash" aria-hidden="true"></i><span>삭제</span>
+      </button>
     </li>
 </template>
 
 <script setup>
 defineProps({
+  id: Number,
   name: String,
   value: String,
   status: String
 })
+
+const emit = defineEmits(['delete'])
+
 </script>
