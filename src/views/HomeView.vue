@@ -48,11 +48,11 @@ function handleDelete(id) {
 }
 
 
-// const plants = [
-//   { id: 1, value:'다육이', name:'하월시아', status:'safe' },
-//   { id: 2, value:'아프리카식물', name:'아이오베숨', status:'warn' },
-//   { id: 3, value:'관엽', name:'스킨답서스', status:'danger' },
-// ] 
+const plants = [
+  { id: 1, value:'다육이', name:'하월시아', status:'safe' },
+  { id: 2, value:'아프리카식물', name:'아이오베숨', status:'warn' },
+  { id: 3, value:'관엽', name:'스킨답서스', status:'danger' },
+] 
 </script>
 
 
