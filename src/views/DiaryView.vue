@@ -1,6 +1,7 @@
 <template>
   <div class="diary">
     <header class="diary__header">
+      <i class="ti ti-arrow-left" @click="router.back()"></i>
       <h1 class="diary__title">타임라인</h1>
     </header>
 
@@ -55,6 +56,7 @@
 import { useDiaryStore } from "@/stores/diary";
 import "@/assets/scss/pages/DiaryView.scss";
 import { ref } from "vue";
+import { useRouter } from "vue-router";
 
 const diaryStore = useDiaryStore();
 
