@@ -1,9 +1,7 @@
 <template>
   <div class="plant-add">
     <header class="plant-add__header">
-      <RouterLink to="/" class="plant-detail__back-btn">
-        <i class="ti ti-arrow-left" aria-hidden="true"></i>
-      </RouterLink>
+      <i class="ti ti-arrow-left" aria-hidden="true" @click="router.back()"></i>
       <h1 class="plant-add__title">식물 친구 등록</h1>
     </header>
 

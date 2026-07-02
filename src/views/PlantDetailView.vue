@@ -2,9 +2,7 @@
   <div class="plant-detail" v-if="plant">
     <!-- 식물 상세 정보 -->
     <header class="plant-dtail__header">
-      <RouterLink to="/" class="plant-detail__back-btn">
-        <i class="ti ti-arrow-left" aria-hidden="true"></i>
-      </RouterLink>
+      <i class="ti ti-arrow-left" aria-hidden="true" @click="router.back()"> </i>
       <h1 class="plant-detail__title">{{ plant.name }}</h1>
     </header>
 
@@ -33,11 +31,12 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
+import { useRouter } from "vue-router";
 import { useRoute } from "vue-router";
 import { usePlantStore } from "@/stores/plant";
 import "@/assets/scss/pages/PlantDetailView.scss";
 
+const router = useRouter();
 const route = useRoute();
 const plantStore = usePlantStore();
 const plant = plantStore.getPlantById(Number(route.params.id));
