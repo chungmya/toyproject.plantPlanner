@@ -14,16 +14,11 @@
     </div>
   </header>
 
-  <div class="home__search">
-    <i class="ti ti-search" aria-hidden="true"></i>
-    <span>식물 검색</span>
-  </div>
-
-
   <ul class="plant-list">
     <PlantCard 
     v-for="plant in plantStore.plants" 
     :key="plant.id"
+    :id="plant.id"
     :name="plant.name"
     :value="plant.species"
     :status="plant.status"
@@ -41,6 +36,10 @@ import "@/assets/scss/pages/HomeView.scss";
 
 
 const plantStore = usePlantStore()
+
+function handleDelete(id) {
+  plantStore.removePlant(id)
+}
 
 const plants = [
   { id: 1, value:'다육이', name:'하월시아', status:'safe' },
