@@ -1,0 +1,42 @@
+#app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 80px; // 탭바 높이만큼 여백 확보
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 0 16px; // 하단 여백은 아이폰 홈바 고려
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 12px;
+    color: #aaa;
+    font-size: 11px;
+    transition: all 0.15s ease;
+
+    i {
+      font-size: 22px;
+    }
+
+    &--active {
+      background: #eaf3de;
+      color: #3b6d11;
+    }
+  }
+}

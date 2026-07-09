@@ -22,6 +22,7 @@
     :name="plant.name"
     :value="plant.species"
     :status="plant.status"
+    @delete="handleDelete"
     />
   </ul>
 </div>
@@ -31,16 +32,22 @@
 import { RouterLink } from 'vue-router'
 import { usePlantStore } from '@/stores/plant'
 import PlantCard from '@/components/plant/PlantCard.vue'
-
 import "@/assets/scss/pages/HomeView.scss";
-
 
 const plantStore = usePlantStore()
 
+<<<<<<< HEAD
+=======
+//delete버튼
+>>>>>>> 66a75131a119b231e392467273064a1507596847
 function handleDelete(id) {
   plantStore.removePlant(id)
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 66a75131a119b231e392467273064a1507596847
 const plants = [
   { id: 1, value:'다육이', name:'하월시아', status:'safe' },
   { id: 2, value:'아프리카식물', name:'아이오베숨', status:'warn' },
