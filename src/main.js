@@ -2,7 +2,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
-import '@/assets/scss/pages/TabBar.scss';
+import '@/assets/scss/main.scss'
 
 
 const app = createApp(App)

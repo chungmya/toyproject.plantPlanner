@@ -10,6 +10,12 @@ export default defineConfig({
     }
   },
   css: {
-    devSourcemap: true
+    devSourcemap: true,
+
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@use "${path.resolve(__dirname, 'src/assets/scss/common/mixins')}" as *;`
+      }
+    }
   }
 })

@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+// rem 변환 함수 (기준: 1rem = 10px)
+// 사용법: font-size: rem(14); → 1.4rem
+@function rem($px) {
+  @return ($px * 0.1) * 1rem;
+}
+
+// 폰트 패밀리 믹스인
+@mixin base-fontfamily  { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif; }
+@mixin point-fontfamily { font-family: 'SchoolSafetyWave', sans-serif; }
+
+// 폰트 사이즈 믹스인
+// 사용법: @include text-sm;
+@mixin text-xs   { font-size: rem($font-xs); }
+@mixin text-sm   { font-size: rem($font-sm); }
+@mixin text-base { font-size: rem($font-base); }
+@mixin text-md   { font-size: rem($font-md); }
+@mixin text-lg   { font-size: rem($font-lg); }
+@mixin text-xl   { font-size: rem($font-xl); }
+@mixin text-2xl  { font-size: rem($font-2xl); }
+@mixin text-3xl  { font-size: rem($font-3xl); }
