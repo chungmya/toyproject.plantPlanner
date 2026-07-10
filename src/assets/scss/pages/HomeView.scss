@@ -5,7 +5,6 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  background: #ffff;
   min-width: 0;
 
   &__banner {
@@ -17,10 +16,11 @@
 
   &__banner-label {
   @include point-fontfamily;
-      font-size: 1.8rem;
-    color: #888884;
+      font-size: 3rem;
+    color: #1a1a18;
+    font-weight: 700;
     margin: 0;
-    letter-spacing: 0.08em;
+    letter-spacing: -0.05em;
   }
 
   &__banner-top {

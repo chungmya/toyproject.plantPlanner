@@ -9,6 +9,10 @@
 // 폰트 패밀리 믹스인
 @mixin base-fontfamily  { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif; }
 @mixin point-fontfamily { font-family: 'SchoolSafetyWave', sans-serif; }
+@mixin point-fontfamily-bold {
+  font-family: 'SchoolSafetyWave', sans-serif;
+  font-weight: 700;
+}
 
 // 폰트 사이즈 믹스인
 // 사용법: @include text-sm;

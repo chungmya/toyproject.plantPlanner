@@ -9,12 +9,14 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  server: {
+    host: true,
+  },
   css: {
     devSourcemap: true,
-
     preprocessorOptions: {
       scss: {
-        additionalData: `@use "${path.resolve(__dirname, 'src/assets/scss/common/mixins')}" as *;`
+        additionalData: `@use '@/assets/scss/common/_mixins' as *;`
       }
     }
   }
