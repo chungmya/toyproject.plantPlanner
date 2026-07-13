@@ -94,15 +94,32 @@ body {
 }
 
 #app {
-  max-width: 400px;
-  margin: 0 auto;
-
   display: flex;
   flex-direction: row;
   height: 100vh;
   max-width: 40rem;
   margin: 0 auto;
   overflow: hidden;
-  background: #ffff;
-  //border: 1px solid #000;
+  background: #fff;
+
+  .app-inner {
+      flex-shrink: 0;
+      border-bottom: 1px solid #eee;
+    }
+
+  .app__title {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2;
+    text-align: right;
+    border-bottom: 1px solid #eee;
+    padding: 1rem 1.4rem;
+  }
+
+  > main {
+    flex: 1;
+    overflow-y: auto;
+    min-width: 0;
+    
+  }
 }

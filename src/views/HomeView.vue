@@ -7,43 +7,70 @@
           오늘의 식물을 소개합니다. <br />매일 새로운 식물 친구를 만나보세요.
         </h1>
       </div>
+    </div>
+
+    <!-- 
+    슬라이드 배너
+      -->
+    <div
+      class="home__banner-slider"
+      role="region"
+      aria-label="배너 이미지 슬라이드"
+      @touchstart="stopSlide"
+      @touchend="startSlide"
+    >
       <div
-        class="home__banner-slider"
-        role="region"
+        v-for="(bnrimg, index) in bnrimgs"
+        :key="bnrimg.id"
+        class="home__banner-img"
+        :class="{ 'home__banner-img--active': index === currentIndex }"
+        :aria-hidden="index !== currentIndex"
         aria-label="배너 이미지 슬라이드"
-        @touchstart="stopSlide"
-        @touchend="startSlide"
+        role="`${bnrimg.name} 배너 이미지`"
       >
-        <div
+        <img
+          :src="bnrimg.image"
+          :alt="bnrimg.name"
+        />
+        <span class="blind">{{ bnrimg.name }}</span>
+      </div>
+      <div
+        class="home__banner-dots"
+        role="tablist"
+      >
+        <button
           v-for="(bnrimg, index) in bnrimgs"
           :key="bnrimg.id"
-          class="home__banner-img"
-          :class="{ 'home__banner-img--active': index === currentIndex }"
-          :aria-hidden="index !== currentIndex"
-          aria-label="배너 이미지 슬라이드"
-          role="`${bnrimg.name} 배너 이미지`"
-        >
-          <img
-            :src="bnrimg.image"
-            :alt="bnrimg.name"
-          />
-          <span class="blind">{{ bnrimg.name }}</span>
-        </div>
-        <div
-          class="home__banner-dots"
-          role="tablist"
-        >
-          <button
-            v-for="(bnrimg, index) in bnrimgs"
-            :key="bnrimg.id"
-            class="home__banner-dot"
-            :class="{ 'home__banner-dot--active': index === currentIndex }"
-            @click="currentIndex = index"
-            :aria-selected="index == currentIndex"
-            :aria-label="`${index + 1}번째 배너 이미지`"
-          ></button>
-        </div>
+          class="home__banner-dot"
+          :class="{ 'home__banner-dot--active': index === currentIndex }"
+          @click="currentIndex = index"
+          :aria-selected="index == currentIndex"
+          :aria-label="`${index + 1}번째 배너 이미지`"
+        ></button>
       </div>
+    </div>
+
+    <!-- 물주기 임박 리스트 -->
+    <div class="home__content">
+      <section
+        class="home__watering"
+        aria-labelledby="watering-title"
+      >
+        <h2
+          id="watering-title"
+          class="home__watering-title"
+        >
+          💧 식집사님, 물 시중이 필요해요
+        </h2>
+        <ul class="watering-list">
+          <li class="watering-list__item">
+            <RouterLink>
+              <strong class="watering-list__name"></strong>
+              <span class="watering-list__dday"></span>
+            </RouterLink>
+          </li>
+        </ul>
+      </section>
     </div>
   </div>
 </template>
@@ -59,6 +86,8 @@ import "@/assets/scss/pages/HomeView.scss"; //scss 파일 import
 import banner01 from "@/assets/images/home-banner01.png";
 import banner02 from "@/assets/images/home-banner02.png";
 import banner03 from "@/assets/images/home-banner03.png";
+
+const plantStore = usePlantStore();
 
 const bnrimgs = [
   { id: 1, image: banner01, name: "알부카 콘코르디아나" },

@@ -1,4 +1,3 @@
-vue
 <template>
   <div class="plant-list">
     <div class="home__banner">
@@ -35,6 +34,7 @@ import { usePlantStore } from "@/stores/plant";
 import PlantCard from "@/components/plant/PlantCard.vue";
 
 const plantStore = usePlantStore();
+
 const props = defineProps({
   id: Number,
   name: String,
