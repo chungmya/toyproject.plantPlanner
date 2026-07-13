@@ -63,9 +63,13 @@
           💧 식집사님, 물 시중이 필요해요
         </h2>
         <ul class="watering-list">
-          <li class="watering-list__item">
+          <li
+            v-for="plant in wateringSoon"
+            key="plant.id"
+            class="watering-list__item"
+          >
             <RouterLink>
-              <strong class="watering-list__name"></strong>
+              <strong class="watering-list__name">{{ plant.name }}</strong>
               <span class="watering-list__dday"></span>
             </RouterLink>
           </li>
