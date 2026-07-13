@@ -1,0 +1,1636 @@
+{
+  "plants": [
+    {
+      "id": "137792",
+      "name": "스킨답서스",
+      "species": "Epipremnum aureum",
+      "speciesId": "21458",
+      "status": "건강함",
+      "adoptedAt": "2025-08-30",
+      "lastWateredAt": "2026-06-30",
+      "wateringInterval": 10
+    },
+    {
+      "id": "137882",
+      "name": "석화 (아데니움 오베숨)",
+      "species": "Adenium obesum",
+      "speciesId": "26012",
+      "status": "건강함",
+      "adoptedAt": "2025-10-23",
+      "lastWateredAt": "2026-06-19",
+      "wateringInterval": 15
+    },
+    {
+      "id": "137886",
+      "name": "시조바시스 인트리카타",
+      "species": "Drimia Intricata",
+      "speciesId": "25847",
+      "status": "건강함",
+      "adoptedAt": null,
+      "lastWateredAt": "2026-07-01",
+      "wateringInterval": 20
+    },
+    {
+      "id": "137920",
+      "name": "아스파라거스 나누스 플루모서스",
+      "species": "Asparagus setaceus",
+      "speciesId": "25678",
+      "status": "건강함",
+      "adoptedAt": "2026-04-05",
+      "lastWateredAt": "2026-07-05",
+      "wateringInterval": 4
+    },
+    {
+      "id": "138124",
+      "name": "오렌지자스민",
+      "species": "Murraya paniculata",
+      "speciesId": "25611",
+      "status": "건강함",
+      "adoptedAt": null,
+      "lastWateredAt": "2026-07-05",
+      "wateringInterval": 6
+    },
+    {
+      "id": "138182",
+      "name": "세로페기아 기키이",
+      "species": "Ceropegia gikyi",
+      "speciesId": "26374",
+      "status": "건강함",
+      "adoptedAt": "2026-01-10",
+      "lastWateredAt": "2026-06-28",
+      "wateringInterval": 10
+    },
+    {
+      "id": "138397",
+      "name": "몬소니아 반데리에티에",
+      "species": "Monsonia vanderietiae",
+      "speciesId": null,
+      "status": "건강함",
+      "adoptedAt": "2026-03-14",
+      "lastWateredAt": "2026-06-28",
+      "wateringInterval": 20
+    },
+    {
+      "id": "138494",
+      "name": "세나 메리디오날리스",
+      "species": "Senna meridionalis",
+      "speciesId": null,
+      "status": "건강함",
+      "adoptedAt": "2025-10-02",
+      "lastWateredAt": "2026-06-27",
+      "wateringInterval": 15
+    },
+    {
+      "id": "138663",
+      "name": "카나리아 아이비",
+      "species": "Hedera canariensis",
+      "speciesId": "9739",
+      "status": "건강함",
+      "adoptedAt": "2025-09-20",
+      "lastWateredAt": "2026-06-28",
+      "wateringInterval": 10
+    },
+    {
+      "id": "138685",
+      "name": "돌스테니아 포에티다",
+      "species": "Dorstenia foetida",
+      "speciesId": null,
+      "status": "건강함",
+      "adoptedAt": "2026-01-10",
+      "lastWateredAt": "2026-06-19",
+      "wateringInterval": 20
+    },
+    {
+      "id": "138940",
+      "name": "소정선인장",
+      "species": "Parodia scopa (Spreng.) N.P.Taylor",
+      "speciesId": "26293",
+      "status": "건강함",
+      "adoptedAt": null,
+      "lastWateredAt": "2026-06-21",
+      "wateringInterval": 30
+    },
+    {
+      "id": "139055",
+      "name": "세로페기아 기키이",
+      "species": "Ceropegia gikyi",
+      "speciesId": "26374",
+      "status": "건강함",
+      "adoptedAt": "2026-01-10",
+      "lastWateredAt": "2026-07-02",
+      "wateringInterval": 20
+    },
+    {
+      "id": "139182",
+      "name": "석화 (아데니움 오베숨)",
+      "species": "Adenium obesum",
+      "speciesId": "26012",
+      "status": "건강함",
+      "adoptedAt": "2025-08-26",
+      "lastWateredAt": "2026-06-28",
+      "wateringInterval": 15
+    },
+    {
+      "id": "139185",
+      "name": "하월시아",
+      "species": "Haworthia cooperi",
+      "speciesId": "25742",
+      "status": "건강함",
+      "adoptedAt": "2025-02-09",
+      "lastWateredAt": "2026-06-25",
+      "wateringInterval": 30
+    },
+    {
+      "id": "142096",
+      "name": "석화 (아데니움 오베숨)",
+      "species": "Adenium obesum",
+      "speciesId": "26012",
+      "status": "건강함",
+      "adoptedAt": "2026-05-14",
+      "lastWateredAt": "2026-07-06",
+      "wateringInterval": 7
+    },
+    {
+      "id": "142115",
+      "name": "아이비 실버차미",
+      "species": "Hedera canariensis",
+      "speciesId": "9739",
+      "status": "건강함",
+      "adoptedAt": "2026-05-10",
+      "lastWateredAt": "2026-07-06",
+      "wateringInterval": 7
+    },
+    {
+      "id": "146666",
+      "name": "보스턴고사리",
+      "species": "Nephrolepis exaltata",
+      "speciesId": "25625",
+      "status": "건강함",
+      "adoptedAt": "2026-06-30",
+      "lastWateredAt": "2026-07-05",
+      "wateringInterval": 4
+    }
+  ],
+  "species": [
+    {
+      "id": "9739",
+      "scientificName": "Hedera canariensis",
+      "commonName": "Algerian ivy",
+      "image": null,
+      "otherNames": [
+        "Canary ivy",
+        "Coney island ivy"
+      ],
+      "difficulty": null,
+      "light": [
+        "햇살이 드는 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 7,
+      "wateringSignal": null,
+      "thirstSignal": null,
+      "minTempIndoor": null,
+      "maxTempIndoor": null,
+      "minHumidity": null,
+      "maxHumidity": null,
+      "habitat": null,
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "21458",
+      "scientificName": "Epipremnum aureum",
+      "commonName": "Golden pothos",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/bv86lNImeFKRwE3dNc9.jpg",
+      "otherNames": [],
+      "difficulty": null,
+      "light": [],
+      "wateringInterval": null,
+      "wateringSignal": null,
+      "thirstSignal": null,
+      "minTempIndoor": null,
+      "maxTempIndoor": null,
+      "minHumidity": null,
+      "maxHumidity": null,
+      "habitat": null,
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "25611",
+      "scientificName": "Murraya paniculata",
+      "commonName": "Orange jasmine",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/Kbuey6lgIVuFpOGvHsG.jpg",
+      "otherNames": [],
+      "difficulty": "쉬움",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "햇살이 드는 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": null,
+      "wateringSignal": "the top 2-3 inches of soil is dry",
+      "thirstSignal": null,
+      "minTempIndoor": "15",
+      "maxTempIndoor": "24",
+      "minHumidity": "40",
+      "maxHumidity": "70",
+      "habitat": "\bSouth East Asia",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "25625",
+      "scientificName": "Nephrolepis exaltata",
+      "commonName": "Boston fern",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/O_qnI__8_uTSJd_ZGAh.jpg",
+      "otherNames": [
+        "Fishbone fern"
+      ],
+      "difficulty": "쉬움",
+      "light": [
+        "햇살이 드는 실내",
+        "햇살이 없지만 밝은 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": null,
+      "wateringSignal": "the top 2-3 inches of soil is dry",
+      "thirstSignal": null,
+      "minTempIndoor": "16",
+      "maxTempIndoor": "20",
+      "minHumidity": "70",
+      "maxHumidity": "90",
+      "habitat": "South America",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "25678",
+      "scientificName": "Asparagus setaceus",
+      "commonName": "Common asparagus fern",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/vyLlz8NtXt-C3hqMcKD.jpg",
+      "otherNames": [],
+      "difficulty": "쉬움",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "햇살이 드는 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "leaves look a little wrinkled",
+      "minTempIndoor": "18",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "70",
+      "habitat": "South Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "25742",
+      "scientificName": "Haworthia cooperi",
+      "commonName": "Cooper's haworthia",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/uC2zl4ZuGrV39nHIMzU.jpg",
+      "otherNames": [],
+      "difficulty": "쉬움",
+      "light": [
+        "햇살이 드는 실내",
+        "햇살이 없지만 밝은 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "leaves look a little wrinkled",
+      "minTempIndoor": "20",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "70",
+      "habitat": "South Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "25847",
+      "scientificName": "Drimia Intricata",
+      "commonName": null,
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/hcd6rD1ox0xua9-XhCO.jpg",
+      "otherNames": [],
+      "difficulty": "어려움",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "햇살이 드는 실내",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "leaves look a little wrinkled",
+      "minTempIndoor": "18",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "70",
+      "habitat": "South Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "26012",
+      "scientificName": "Adenium obesum",
+      "commonName": "Desert rose",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/gkNCwthlsU7GAGPkPhm.jpg",
+      "otherNames": [],
+      "difficulty": "보통",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "leaves look a little wrinkled",
+      "minTempIndoor": "18",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "60",
+      "habitat": "South Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "26293",
+      "scientificName": "Parodia scopa (Spreng.) N.P.Taylor",
+      "commonName": "Silver ball cactus",
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/jPYlC1fHw9ZJWkvIqoR.jpg",
+      "otherNames": [],
+      "difficulty": "쉬움",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "look a little pale, wrinkled or shriveled.",
+      "minTempIndoor": "18",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "60",
+      "habitat": "Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    },
+    {
+      "id": "26374",
+      "scientificName": "Ceropegia gikyi",
+      "commonName": null,
+      "image": "https://d2fwaet2smbydf.cloudfront.net/species/KySwMVKOEYs1bYcZGfX.jpg",
+      "otherNames": [],
+      "difficulty": "보통",
+      "light": [
+        "햇살이 드는 창문 앞",
+        "식물 조명 빛을 받아요"
+      ],
+      "wateringInterval": 14,
+      "wateringSignal": "The soil should be at least 90% dry before watering again. this means about every 2 weeks in the warm season and about every 4 weeks in the cold season",
+      "thirstSignal": "leaves look a little wrinkled",
+      "minTempIndoor": "18",
+      "maxTempIndoor": "25",
+      "minHumidity": "40",
+      "maxHumidity": "70",
+      "habitat": "Africa",
+      "toxicity": {
+        "baby": false,
+        "cat": false,
+        "dog": false,
+        "hamster": false
+      }
+    }
+  ],
+  "sites": [
+    {
+      "id": "42872",
+      "name": "침실",
+      "type": "침실",
+      "light": "햇살이 없지만 밝은 실내",
+      "ventilation": "선풍기 근처",
+      "windowDirection": null,
+      "petsOrKids": "사람",
+      "humidifier": null,
+      "airConditioner": null,
+      "heater": null,
+      "image": null,
+      "createdAt": "2026-04-14 23:19"
+    },
+    {
+      "id": "42731",
+      "name": "거실",
+      "type": "거실",
+      "light": "식물 조명 빛을 받아요",
+      "ventilation": "다른 공간과 연결되는 문 근처에 있어요",
+      "windowDirection": null,
+      "petsOrKids": null,
+      "humidifier": null,
+      "airConditioner": null,
+      "heater": null,
+      "image": "https://d3jk3dbuafh2pk.cloudfront.net/assets/usersite-livingroom.png",
+      "createdAt": "2026-04-13 11:11"
+    }
+  ],
+  "careLogs": [
+    {
+      "id": "d0f920d0-5ed8-4fd4-909a-9ef6c280d0cd",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-07-13 21:45",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-06 21:45"
+    },
+    {
+      "id": "f59df946-3911-4a82-b343-b4ce5f48cd13",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-07-09 10:22",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-05 10:22"
+    },
+    {
+      "id": "5571072a-bad1-4e2d-a79e-080eb13701b6",
+      "plantId": "146666",
+      "type": "물주기",
+      "scheduledAt": "2026-07-09 09:56",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-05 09:56"
+    },
+    {
+      "id": "a63dcc19-f634-443f-92a8-f13ad8c11192",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-07-12 09:15",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-05 09:15"
+    },
+    {
+      "id": "db259990-3439-4e89-8d38-5f8bde7a51ff",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-07-11 09:15",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-05 09:15"
+    },
+    {
+      "id": "448a090e-8f07-432e-9ea0-3abc43f419a5",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-07-22 22:50",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-02 22:50"
+    },
+    {
+      "id": "7fe84f7d-fc48-48b4-8626-cefe38657a3b",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-07-01 20:49",
+      "completedAt": "2026-07-01 20:49",
+      "memo": null,
+      "createdAt": "2026-07-01 20:49"
+    },
+    {
+      "id": "44675191-326d-42c8-98e2-4ce8c1925065",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-07-21 20:49",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-07-01 20:49"
+    },
+    {
+      "id": "523a4010-8f48-471d-b1f0-f8f12b1a9e66",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-07-10 23:06",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-30 23:06"
+    },
+    {
+      "id": "665f2281-eb7d-4aab-83a0-4978d926063e",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-06-27 00:00",
+      "completedAt": "2026-06-27 00:00",
+      "memo": null,
+      "createdAt": "2026-06-30 23:05"
+    },
+    {
+      "id": "9ff04546-b0f5-4df2-8c1e-26d283d24f58",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-07-03 00:00",
+      "completedAt": "2026-07-05 09:15",
+      "memo": null,
+      "createdAt": "2026-06-30 23:05"
+    },
+    {
+      "id": "5b675668-3e6d-4c86-bc65-592534d73c05",
+      "plantId": "146666",
+      "type": "물주기",
+      "scheduledAt": "2026-07-04 20:57",
+      "completedAt": "2026-07-05 09:56",
+      "memo": null,
+      "createdAt": "2026-06-30 20:57"
+    },
+    {
+      "id": "83edfc7f-68aa-4a31-994f-7b3e687ac72b",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-07-05 23:11",
+      "completedAt": "2026-07-06 21:45",
+      "memo": null,
+      "createdAt": "2026-06-28 23:11"
+    },
+    {
+      "id": "affb11a0-cb26-4d8e-b2a2-5729c507c2ee",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-06-28 23:03",
+      "completedAt": "2026-06-28 23:03",
+      "memo": null,
+      "createdAt": "2026-06-28 23:03"
+    },
+    {
+      "id": "2edcadd1-2e77-4f5e-a0fc-cf75ad1990d5",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-07-08 23:03",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-28 23:03"
+    },
+    {
+      "id": "fe8b79d8-930a-446a-bd92-0580e35b6a43",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-07-02 13:15",
+      "completedAt": "2026-07-05 10:22",
+      "memo": null,
+      "createdAt": "2026-06-28 13:15"
+    },
+    {
+      "id": "fc5e1aa5-4822-4b7b-98fc-37f0f549c810",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-06-28 13:15",
+      "completedAt": "2026-06-28 13:15",
+      "memo": null,
+      "createdAt": "2026-06-28 13:15"
+    },
+    {
+      "id": "72cedf38-5218-4142-85b3-4a5b944deb6c",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-07-18 13:15",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-28 13:15"
+    },
+    {
+      "id": "6562a263-8ef7-40c7-8e2f-f0dadd866ec6",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-07-13 12:22",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-28 12:22"
+    },
+    {
+      "id": "fbd6842a-8dbe-405c-ae0b-7acf83e66446",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-07-08 12:22",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-28 12:22"
+    },
+    {
+      "id": "766895a0-8be2-4f9c-8332-46c8176e7b2d",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-07-12 00:59",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-27 00:59"
+    },
+    {
+      "id": "70a90660-b7c3-4deb-a0c8-84fa3342b7ba",
+      "plantId": "139185",
+      "type": "물주기",
+      "scheduledAt": "2026-07-25 12:07",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-25 12:07"
+    },
+    {
+      "id": "6009c5ad-3137-4991-b91a-7c45589eef1f",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-07-01 22:07",
+      "completedAt": "2026-07-05 09:15",
+      "memo": null,
+      "createdAt": "2026-06-24 22:07"
+    },
+    {
+      "id": "fd552d5b-124b-4e98-89c8-f71d1cfb405a",
+      "plantId": "138940",
+      "type": "물주기",
+      "scheduledAt": "2026-07-21 17:07",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-21 17:07"
+    },
+    {
+      "id": "193be818-2562-49d3-8fb3-d65b4ddb37ac",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-06-28 17:05",
+      "completedAt": "2026-06-28 23:11",
+      "memo": null,
+      "createdAt": "2026-06-21 17:05"
+    },
+    {
+      "id": "704e6009-2225-48f0-8bb5-7e533eb7613e",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-06-25 17:03",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-21 17:03"
+    },
+    {
+      "id": "5d6dc85a-ef2b-4695-9427-b67358aad2d1",
+      "plantId": "138685",
+      "type": "물주기",
+      "scheduledAt": "2026-07-09 19:53",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-19 19:53"
+    },
+    {
+      "id": "d2ff78ad-7bdf-40be-8442-70b4b076aef1",
+      "plantId": "137882",
+      "type": "물주기",
+      "scheduledAt": "2026-07-04 08:50",
+      "completedAt": null,
+      "memo": null,
+      "createdAt": "2026-06-19 08:50"
+    },
+    {
+      "id": "2debc2dc-80eb-4559-880a-df287632b6ec",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-06-23 07:59",
+      "completedAt": "2026-06-24 22:05",
+      "memo": null,
+      "createdAt": "2026-06-16 07:59"
+    },
+    {
+      "id": "cec671bf-743d-4e8a-a101-003e816fb0e2",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-06-25 18:27",
+      "completedAt": "2026-06-30 23:06",
+      "memo": null,
+      "createdAt": "2026-06-15 18:27"
+    },
+    {
+      "id": "5240e4c2-4759-4d50-94d8-c41e42290f15",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-06-24 15:02",
+      "completedAt": "2026-06-28 12:22",
+      "memo": null,
+      "createdAt": "2026-06-14 15:02"
+    },
+    {
+      "id": "84a4ea03-f7f3-4ab6-a78b-a419f2e6266c",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-06-18 14:52",
+      "completedAt": "2026-06-21 17:03",
+      "memo": null,
+      "createdAt": "2026-06-14 14:52"
+    },
+    {
+      "id": "09a9ecbd-adf8-4f9e-843d-162ad49d0fe6",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-06-21 14:47",
+      "completedAt": "2026-06-21 17:05",
+      "memo": null,
+      "createdAt": "2026-06-14 14:47"
+    },
+    {
+      "id": "a80fc67f-9498-40c3-b2a2-a8cc55d375be",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-06-18 14:47",
+      "completedAt": "2026-06-28 13:15",
+      "memo": null,
+      "createdAt": "2026-06-14 14:47"
+    },
+    {
+      "id": "3376daf3-3ca4-4426-93a9-cd91f0e5e23b",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-06-11 21:29",
+      "completedAt": "2026-06-11 21:29",
+      "memo": null,
+      "createdAt": "2026-06-11 21:29"
+    },
+    {
+      "id": "1bb6b1bb-4a40-4dc8-9269-d5a9fdb01256",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-06-11 21:26",
+      "completedAt": "2026-06-11 21:26",
+      "memo": null,
+      "createdAt": "2026-06-11 21:26"
+    },
+    {
+      "id": "b5bf93f6-e08b-42e6-9ac3-7982980d4d2e",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-07-01 21:26",
+      "completedAt": "2026-07-02 22:50",
+      "memo": null,
+      "createdAt": "2026-06-11 21:26"
+    },
+    {
+      "id": "8f2db303-2b35-42d8-914a-bdf8493b3da6",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-06-11 21:25",
+      "completedAt": "2026-06-11 21:25",
+      "memo": null,
+      "createdAt": "2026-06-11 21:25"
+    },
+    {
+      "id": "0604f871-100d-4198-bc90-a33450dc39a2",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-06-26 21:25",
+      "completedAt": "2026-06-27 00:59",
+      "memo": null,
+      "createdAt": "2026-06-11 21:25"
+    },
+    {
+      "id": "1caaac82-bb43-418f-983b-f20d4182a8ab",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-06-09 20:29",
+      "completedAt": "2026-06-09 20:29",
+      "memo": null,
+      "createdAt": "2026-06-09 20:29"
+    },
+    {
+      "id": "933dce1a-651a-40aa-8538-3cef8b6a59ad",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-06-19 20:29",
+      "completedAt": "2026-06-21 17:07",
+      "memo": null,
+      "createdAt": "2026-06-09 20:29"
+    },
+    {
+      "id": "83e3575f-5866-486f-8462-c3af7ef8f74b",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-06-09 20:10",
+      "completedAt": "2026-06-09 20:10",
+      "memo": null,
+      "createdAt": "2026-06-09 20:10"
+    },
+    {
+      "id": "a3bde5ef-3fa9-4979-bd5d-d85b69ea425b",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-06-16 20:10",
+      "completedAt": "2026-06-16 07:59",
+      "memo": null,
+      "createdAt": "2026-06-09 20:10"
+    },
+    {
+      "id": "4a7caecd-87d2-4fbf-b402-6a9b2b205206",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-06-09 20:09",
+      "completedAt": "2026-06-09 20:09",
+      "memo": null,
+      "createdAt": "2026-06-09 20:09"
+    },
+    {
+      "id": "776f4d7a-b5f7-46fc-a856-7d7b6c1982ef",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-06-16 20:08",
+      "completedAt": "2026-06-24 22:07",
+      "memo": null,
+      "createdAt": "2026-06-09 20:08"
+    },
+    {
+      "id": "10c8ef0a-09ae-4dd0-8fe8-485a714578fc",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-06-24 20:04",
+      "completedAt": "2026-06-28 12:22",
+      "memo": null,
+      "createdAt": "2026-06-09 20:04"
+    },
+    {
+      "id": "23608ecf-2fed-44bc-9f6b-39e9117ebd22",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-06-05 00:00",
+      "completedAt": "2026-06-05 00:00",
+      "memo": null,
+      "createdAt": "2026-06-08 16:16"
+    },
+    {
+      "id": "801cc246-8426-4cc1-aa04-527d89ab72c2",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-06-11 17:34",
+      "completedAt": "2026-06-14 14:52",
+      "memo": null,
+      "createdAt": "2026-06-07 17:34"
+    },
+    {
+      "id": "9eaab003-88f1-44c6-8a22-4ab9eae68356",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-06-04 19:06",
+      "completedAt": "2026-06-04 19:06",
+      "memo": null,
+      "createdAt": "2026-06-04 19:06"
+    },
+    {
+      "id": "5732bd12-8462-4f60-8dc1-fe519577693c",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-06-11 19:06",
+      "completedAt": "2026-06-14 14:47",
+      "memo": null,
+      "createdAt": "2026-06-04 19:06"
+    },
+    {
+      "id": "b167bda3-2368-4a4f-99d6-27a78cf60338",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-06-04 19:01",
+      "completedAt": "2026-06-04 19:01",
+      "memo": null,
+      "createdAt": "2026-06-04 19:01"
+    },
+    {
+      "id": "8c0c279d-f0fe-44e5-a5a0-7962c3807c78",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-06-14 19:01",
+      "completedAt": "2026-06-14 15:02",
+      "memo": null,
+      "createdAt": "2026-06-04 19:01"
+    },
+    {
+      "id": "e8383f8d-0dae-4609-a927-84b04ac72595",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-06-04 19:00",
+      "completedAt": "2026-06-04 19:00",
+      "memo": null,
+      "createdAt": "2026-06-04 19:00"
+    },
+    {
+      "id": "4f2326c4-9599-496e-944f-8e398b11236b",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-06-14 18:59",
+      "completedAt": "2026-06-15 18:27",
+      "memo": null,
+      "createdAt": "2026-06-04 18:59"
+    },
+    {
+      "id": "58c4a607-5986-4281-8e02-738230781357",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-06-05 19:37",
+      "completedAt": "2026-06-14 14:47",
+      "memo": null,
+      "createdAt": "2026-06-01 19:37"
+    },
+    {
+      "id": "8c072737-269b-4c8a-9f8b-51ecc4938b75",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-06-08 19:34",
+      "completedAt": "2026-06-09 20:08",
+      "memo": null,
+      "createdAt": "2026-06-01 19:34"
+    },
+    {
+      "id": "43f392ff-0479-4ca2-afaf-aadcea5933ca",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-06-05 19:34",
+      "completedAt": "2026-06-07 17:34",
+      "memo": null,
+      "createdAt": "2026-06-01 19:34"
+    },
+    {
+      "id": "54858667-c054-458c-bfa3-98c430cd89e3",
+      "plantId": "137882",
+      "type": "물주기",
+      "scheduledAt": "2026-06-13 18:27",
+      "completedAt": "2026-06-19 08:50",
+      "memo": null,
+      "createdAt": "2026-05-29 18:27"
+    },
+    {
+      "id": "af93a02f-b178-4cb1-bbb4-95f13101df49",
+      "plantId": "138685",
+      "type": "물주기",
+      "scheduledAt": "2026-06-16 22:54",
+      "completedAt": "2026-06-19 19:53",
+      "memo": null,
+      "createdAt": "2026-05-27 22:54"
+    },
+    {
+      "id": "8301ebae-f7e5-4b29-8b70-506f1f1d473a",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-05-27 22:54",
+      "completedAt": "2026-05-27 22:54",
+      "memo": null,
+      "createdAt": "2026-05-27 22:54"
+    },
+    {
+      "id": "f4b99e56-7d32-4069-84c4-79c6761cbb97",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-27 22:43",
+      "completedAt": "2026-05-27 22:43",
+      "memo": null,
+      "createdAt": "2026-05-27 22:43"
+    },
+    {
+      "id": "ba0f2343-8338-41d4-a3c2-77da90eea486",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-31 22:43",
+      "completedAt": "2026-06-01 19:34",
+      "memo": null,
+      "createdAt": "2026-05-27 22:43"
+    },
+    {
+      "id": "7a5ad233-8c0d-4127-89dd-fbc3eab9c2ef",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-05-30 22:43",
+      "completedAt": "2026-06-01 19:37",
+      "memo": null,
+      "createdAt": "2026-05-26 22:43"
+    },
+    {
+      "id": "1742f05b-4fff-4a09-8e46-2fc5e9f91b89",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-06-08 14:07",
+      "completedAt": "2026-06-09 20:04",
+      "memo": null,
+      "createdAt": "2026-05-24 14:07"
+    },
+    {
+      "id": "16dbd434-20b3-40e2-a388-5cd199f13dd6",
+      "plantId": "139185",
+      "type": "물주기",
+      "scheduledAt": "2026-06-21 20:41",
+      "completedAt": "2026-06-25 12:07",
+      "memo": null,
+      "createdAt": "2026-05-22 20:41"
+    },
+    {
+      "id": "4668a395-3bea-468e-8bdd-a8be637409b7",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-06-01 20:39",
+      "completedAt": "2026-06-04 18:59",
+      "memo": null,
+      "createdAt": "2026-05-22 20:39"
+    },
+    {
+      "id": "1bf4331f-7760-4581-b35b-74187cf4062d",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-05-29 20:39",
+      "completedAt": "2026-05-29 22:51",
+      "memo": null,
+      "createdAt": "2026-05-22 20:39"
+    },
+    {
+      "id": "668de279-a8a4-40fd-a5a2-84943056853b",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-05-29 20:39",
+      "completedAt": "2026-05-29 22:51",
+      "memo": null,
+      "createdAt": "2026-05-22 20:39"
+    },
+    {
+      "id": "ab3016fb-e5d5-4090-ad41-e721e676d5d3",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-05-29 19:20",
+      "completedAt": "2026-06-01 19:34",
+      "memo": null,
+      "createdAt": "2026-05-22 19:20"
+    },
+    {
+      "id": "c92720ec-4583-4bfb-baed-64598d752740",
+      "plantId": "138940",
+      "type": "물주기",
+      "scheduledAt": "2026-06-19 21:46",
+      "completedAt": "2026-06-21 17:07",
+      "memo": null,
+      "createdAt": "2026-05-20 21:46"
+    },
+    {
+      "id": "8bde34d8-c468-489f-bcdb-d17ac9050d80",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-05-23 19:38",
+      "completedAt": "2026-05-26 22:43",
+      "memo": null,
+      "createdAt": "2026-05-19 19:38"
+    },
+    {
+      "id": "9f33e47a-9cbd-4ca3-ab1c-2b0132d0b000",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-23 19:37",
+      "completedAt": "2026-05-24 13:47",
+      "memo": null,
+      "createdAt": "2026-05-19 19:37"
+    },
+    {
+      "id": "35fc4012-4371-48df-9946-f3ece9e1a351",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-05-26 13:16",
+      "completedAt": "2026-05-29 18:27",
+      "memo": null,
+      "createdAt": "2026-05-16 13:16"
+    },
+    {
+      "id": "36ed97d7-e09b-41ed-ac2b-c08842f43cd7",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-05-25 20:04",
+      "completedAt": "2026-05-26 22:47",
+      "memo": null,
+      "createdAt": "2026-05-15 20:05"
+    },
+    {
+      "id": "9de349aa-7f47-4485-853e-f27f29a5f2b6",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-05-30 20:04",
+      "completedAt": "2026-06-01 19:49",
+      "memo": null,
+      "createdAt": "2026-05-15 20:04"
+    },
+    {
+      "id": "e2386de5-6e86-41f8-b2f2-ec0069b4caed",
+      "plantId": "138124",
+      "type": "영양관리",
+      "scheduledAt": "2026-05-15 19:57",
+      "completedAt": "2026-05-15 19:57",
+      "memo": null,
+      "createdAt": "2026-05-15 19:58"
+    },
+    {
+      "id": "2137613b-034a-4f73-9146-728f9d374062",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-05-15 19:57",
+      "completedAt": "2026-05-15 19:57",
+      "memo": null,
+      "createdAt": "2026-05-15 19:58"
+    },
+    {
+      "id": "894e66b5-c755-48ad-b1c9-e8afc767981d",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-05-22 19:57",
+      "completedAt": "2026-05-22 20:39",
+      "memo": null,
+      "createdAt": "2026-05-15 19:58"
+    },
+    {
+      "id": "6d50190b-5ae0-4d0b-b99a-e266f6a2046d",
+      "plantId": "142115",
+      "type": "물주기",
+      "scheduledAt": "2026-05-21 23:43",
+      "completedAt": "2026-05-22 19:20",
+      "memo": null,
+      "createdAt": "2026-05-14 23:43"
+    },
+    {
+      "id": "13d935e8-9fc0-4fab-a001-4c125e0adf97",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-14 23:40",
+      "completedAt": "2026-05-14 23:40",
+      "memo": null,
+      "createdAt": "2026-05-14 23:40"
+    },
+    {
+      "id": "b2c7b954-28bf-4a88-9e76-5b1b8b37bb6e",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-18 23:40",
+      "completedAt": "2026-05-19 19:37",
+      "memo": null,
+      "createdAt": "2026-05-14 23:40"
+    },
+    {
+      "id": "140f1b75-113d-417e-88eb-b60d85fe13e8",
+      "plantId": "142096",
+      "type": "물주기",
+      "scheduledAt": "2026-05-21 21:13",
+      "completedAt": "2026-05-22 20:39",
+      "memo": null,
+      "createdAt": "2026-05-14 21:13"
+    },
+    {
+      "id": "168463be-afa5-4ef3-80e0-a240bd567139",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-05-12 20:50",
+      "completedAt": "2026-05-12 20:50",
+      "memo": null,
+      "createdAt": "2026-05-12 20:50"
+    },
+    {
+      "id": "b716acae-a63d-4b05-8236-e94f90ebd593",
+      "plantId": "137882",
+      "type": "물주기",
+      "scheduledAt": "2026-05-26 20:40",
+      "completedAt": "2026-05-29 18:27",
+      "memo": null,
+      "createdAt": "2026-05-11 20:40"
+    },
+    {
+      "id": "07e7f8f4-fc2d-47b0-83ec-6b4d680130f8",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-05-21 20:40",
+      "completedAt": "2026-05-22 20:39",
+      "memo": null,
+      "createdAt": "2026-05-11 20:40"
+    },
+    {
+      "id": "8606a788-db35-40d3-9dc2-67ebebd22369",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-05-11 20:36",
+      "completedAt": "2026-05-11 20:36",
+      "memo": null,
+      "createdAt": "2026-05-11 20:36"
+    },
+    {
+      "id": "f52189f7-ff83-469d-935c-be16c7d5bf1b",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-05-15 20:36",
+      "completedAt": "2026-05-19 19:38",
+      "memo": null,
+      "createdAt": "2026-05-11 20:36"
+    },
+    {
+      "id": "9c476611-2e8a-4259-ad19-0d62db48ddd8",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-10 12:21",
+      "completedAt": "2026-05-10 12:21",
+      "memo": null,
+      "createdAt": "2026-05-10 12:21"
+    },
+    {
+      "id": "5079aac6-6225-4908-8fa9-d6e886840dea",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-05-07 20:24",
+      "completedAt": "2026-05-07 20:24",
+      "memo": null,
+      "createdAt": "2026-05-07 20:24"
+    },
+    {
+      "id": "9f1b5259-5aa8-44db-9708-d4fe9766d583",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-05-27 20:24",
+      "completedAt": "2026-05-27 22:54",
+      "memo": null,
+      "createdAt": "2026-05-07 20:24"
+    },
+    {
+      "id": "517049d7-153f-426f-a2a6-79399e58c33f",
+      "plantId": "138685",
+      "type": "물주기",
+      "scheduledAt": "2026-05-07 20:18",
+      "completedAt": "2026-05-07 20:18",
+      "memo": null,
+      "createdAt": "2026-05-07 20:18"
+    },
+    {
+      "id": "c8d02da9-02f8-490b-af7c-76d89e949a6e",
+      "plantId": "138685",
+      "type": "물주기",
+      "scheduledAt": "2026-05-27 20:18",
+      "completedAt": "2026-05-27 22:54",
+      "memo": null,
+      "createdAt": "2026-05-07 20:18"
+    },
+    {
+      "id": "b3b7101c-29f3-4e76-8418-cefb137be9fe",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-05-07 20:17",
+      "completedAt": "2026-05-07 20:17",
+      "memo": null,
+      "createdAt": "2026-05-07 20:17"
+    },
+    {
+      "id": "b2e82f2e-ea23-433b-9172-da3aa3540ede",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-05-27 20:17",
+      "completedAt": "2026-05-27 22:54",
+      "memo": null,
+      "createdAt": "2026-05-07 20:17"
+    },
+    {
+      "id": "f219527f-4842-4004-8792-a468def38aa5",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-05-06 21:22",
+      "completedAt": "2026-05-06 21:22",
+      "memo": null,
+      "createdAt": "2026-05-06 21:22"
+    },
+    {
+      "id": "5948f46b-8a73-4fb8-9a3c-81c5f1b39535",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-05-21 21:22",
+      "completedAt": "2026-05-24 14:07",
+      "memo": null,
+      "createdAt": "2026-05-06 21:22"
+    },
+    {
+      "id": "c7b3e4bc-f685-41bc-ae10-acfa7cbeae16",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-05-05 18:11",
+      "completedAt": "2026-05-05 18:11",
+      "memo": null,
+      "createdAt": "2026-05-05 18:11"
+    },
+    {
+      "id": "b8ac8315-835b-48f9-afe5-72eb566e9ae6",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-05-15 18:11",
+      "completedAt": "2026-05-15 20:04",
+      "memo": null,
+      "createdAt": "2026-05-05 18:11"
+    },
+    {
+      "id": "6ee4d296-9cb0-4d4b-97f8-b376dbaa0340",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-05-05 17:43",
+      "completedAt": "2026-05-05 17:43",
+      "memo": null,
+      "createdAt": "2026-05-05 17:43"
+    },
+    {
+      "id": "b475cf82-06b8-4e40-a2d5-0b24cc33c5a4",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-05-05 17:43",
+      "completedAt": "2026-05-05 17:43",
+      "memo": null,
+      "createdAt": "2026-05-05 17:43"
+    },
+    {
+      "id": "fc32da76-70be-4fe1-8e02-40bd9806148c",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-05-15 17:43",
+      "completedAt": "2026-05-16 13:16",
+      "memo": null,
+      "createdAt": "2026-05-05 17:43"
+    },
+    {
+      "id": "3d0a8f28-6f7f-448c-85f8-1c727111f002",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-05-05 17:38",
+      "completedAt": "2026-05-05 17:38",
+      "memo": null,
+      "createdAt": "2026-05-05 17:38"
+    },
+    {
+      "id": "c33dfee7-94b6-4fba-87a0-4c4b88f5a1c2",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-05-05 17:37",
+      "completedAt": "2026-05-05 17:37",
+      "memo": null,
+      "createdAt": "2026-05-05 17:37"
+    },
+    {
+      "id": "1e0a19ed-ed2f-4804-9248-749f8fd33673",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-04-30 20:59",
+      "completedAt": "2026-04-30 20:59",
+      "memo": null,
+      "createdAt": "2026-04-30 20:59"
+    },
+    {
+      "id": "fac86b47-322f-4814-a9fc-65587cf664f4",
+      "plantId": "138494",
+      "type": "물주기",
+      "scheduledAt": "2026-05-15 20:59",
+      "completedAt": "2026-05-15 20:04",
+      "memo": null,
+      "createdAt": "2026-04-30 20:59"
+    },
+    {
+      "id": "669df399-f386-466b-bd23-42fbe522889b",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-04-30 20:56",
+      "completedAt": "2026-04-30 20:56",
+      "memo": null,
+      "createdAt": "2026-04-30 20:56"
+    },
+    {
+      "id": "15ab8a79-b6f2-4d62-927a-f704a34ab2b1",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-04-28 20:06",
+      "completedAt": "2026-04-28 20:06",
+      "memo": null,
+      "createdAt": "2026-04-28 20:06"
+    },
+    {
+      "id": "e09bd400-1312-4b7d-b312-c86f8087efc5",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-04-28 20:04",
+      "completedAt": "2026-04-28 20:04",
+      "memo": null,
+      "createdAt": "2026-04-28 20:04"
+    },
+    {
+      "id": "9287610d-c2cc-40c8-a668-0eae989e6b8a",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-05-08 20:04",
+      "completedAt": "2026-05-11 20:40",
+      "memo": null,
+      "createdAt": "2026-04-28 20:04"
+    },
+    {
+      "id": "22c78a75-4387-4ded-afd0-4a7ce0ad06b2",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-04-28 20:03",
+      "completedAt": "2026-04-28 20:03",
+      "memo": null,
+      "createdAt": "2026-04-28 20:03"
+    },
+    {
+      "id": "d5a514fa-f365-4c44-809d-1877dbb1a973",
+      "plantId": "138397",
+      "type": "물주기",
+      "scheduledAt": "2026-04-27 19:48",
+      "completedAt": "2026-04-27 19:48",
+      "memo": null,
+      "createdAt": "2026-04-27 19:48"
+    },
+    {
+      "id": "d7850d69-e513-4fa3-b5b5-c776c381f3d7",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-04-26 09:38",
+      "completedAt": "2026-04-26 09:38",
+      "memo": null,
+      "createdAt": "2026-04-26 09:38"
+    },
+    {
+      "id": "9485f29e-2260-4111-916f-40dcc6b981ec",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-04-25 12:47",
+      "completedAt": "2026-04-25 12:47",
+      "memo": null,
+      "createdAt": "2026-04-25 12:47"
+    },
+    {
+      "id": "a4422706-0001-48f2-acf9-db27da157fda",
+      "plantId": "138685",
+      "type": "물주기",
+      "scheduledAt": "2026-04-23 19:43",
+      "completedAt": "2026-04-23 19:43",
+      "memo": null,
+      "createdAt": "2026-04-23 19:43"
+    },
+    {
+      "id": "b4d44291-f66d-4d9b-9368-2f9beb925441",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-04-23 19:38",
+      "completedAt": "2026-04-23 19:38",
+      "memo": null,
+      "createdAt": "2026-04-23 19:38"
+    },
+    {
+      "id": "7d90483c-f257-4c4a-b1da-8a2d8f5cce83",
+      "plantId": "139185",
+      "type": "물주기",
+      "scheduledAt": "2026-05-22 21:51",
+      "completedAt": "2026-05-22 20:41",
+      "memo": null,
+      "createdAt": "2026-04-22 21:51"
+    },
+    {
+      "id": "53cc428f-6ee0-469a-a90a-3e9e24467f20",
+      "plantId": "137882",
+      "type": "물주기",
+      "scheduledAt": "2026-04-22 21:44",
+      "completedAt": "2026-04-22 21:44",
+      "memo": null,
+      "createdAt": "2026-04-22 21:44"
+    },
+    {
+      "id": "39714f63-cfa3-4941-abe2-ddd21ffb40ef",
+      "plantId": "137882",
+      "type": "물주기",
+      "scheduledAt": "2026-05-07 21:44",
+      "completedAt": "2026-05-11 20:40",
+      "memo": null,
+      "createdAt": "2026-04-22 21:44"
+    },
+    {
+      "id": "263cae64-ae2f-4be7-a8ef-9d99b7565cd9",
+      "plantId": "139182",
+      "type": "물주기",
+      "scheduledAt": "2026-04-22 21:25",
+      "completedAt": "2026-04-22 21:25",
+      "memo": null,
+      "createdAt": "2026-04-22 21:25"
+    },
+    {
+      "id": "9aaf89de-6f2a-4131-9cad-e1eb716a8d0f",
+      "plantId": "139055",
+      "type": "물주기",
+      "scheduledAt": "2026-04-21 21:05",
+      "completedAt": "2026-04-21 21:05",
+      "memo": null,
+      "createdAt": "2026-04-21 21:05"
+    },
+    {
+      "id": "aa7248c0-8286-41b2-88f5-b64ff0922ecd",
+      "plantId": "138940",
+      "type": "물주기",
+      "scheduledAt": "2026-05-20 21:40",
+      "completedAt": "2026-05-20 21:46",
+      "memo": null,
+      "createdAt": "2026-04-20 21:40"
+    },
+    {
+      "id": "24dd8413-6d9f-4b9b-a8ce-766144c7b9ff",
+      "plantId": "138124",
+      "type": "물주기",
+      "scheduledAt": "2026-04-20 21:32",
+      "completedAt": "2026-04-20 21:32",
+      "memo": null,
+      "createdAt": "2026-04-20 21:32"
+    },
+    {
+      "id": "b22b72bb-a6fd-4039-ace7-a002de208d7f",
+      "plantId": "137920",
+      "type": "물주기",
+      "scheduledAt": "2026-04-19 15:04",
+      "completedAt": "2026-04-19 15:04",
+      "memo": null,
+      "createdAt": "2026-04-19 15:04"
+    },
+    {
+      "id": "094a05ce-affb-4790-938c-14e515240d36",
+      "plantId": "137658",
+      "type": "물주기",
+      "scheduledAt": "2026-04-19 12:04",
+      "completedAt": "2026-04-19 12:04",
+      "memo": null,
+      "createdAt": "2026-04-19 12:04"
+    },
+    {
+      "id": "761f2bfd-9543-4fc7-8808-4c5955c8ac5a",
+      "plantId": "138663",
+      "type": "물주기",
+      "scheduledAt": "2026-04-19 12:00",
+      "completedAt": "2026-04-19 12:00",
+      "memo": null,
+      "createdAt": "2026-04-19 12:00"
+    },
+    {
+      "id": "7f4c1ae4-851f-48d2-a5d9-2c4f457b7ac1",
+      "plantId": "138182",
+      "type": "물주기",
+      "scheduledAt": "2026-04-16 22:55",
+      "completedAt": "2026-04-16 22:55",
+      "memo": null,
+      "createdAt": "2026-04-16 22:55"
+    },
+    {
+      "id": "4a9c711c-48da-41d5-88a7-e4472a303743",
+      "plantId": "138182",
+      "type": "분갈이하기",
+      "scheduledAt": "2026-04-16 22:28",
+      "completedAt": "2026-04-16 22:28",
+      "memo": null,
+      "createdAt": "2026-04-16 22:28"
+    },
+    {
+      "id": "6908c061-8d50-4e91-8860-05c25eaffb03",
+      "plantId": "137792",
+      "type": "물주기",
+      "scheduledAt": "2026-04-15 21:28",
+      "completedAt": "2026-04-15 21:28",
+      "memo": null,
+      "createdAt": "2026-04-15 21:28"
+    },
+    {
+      "id": "069ac516-d8d3-4ebc-9eb0-27f28bf760d1",
+      "plantId": "137886",
+      "type": "물주기",
+      "scheduledAt": "2026-04-14 21:12",
+      "completedAt": "2026-04-14 21:12",
+      "memo": null,
+      "createdAt": "2026-04-14 21:12"
+    }
+  ]
+}

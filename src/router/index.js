@@ -8,6 +8,11 @@ const routes = [
     component: HomeView
   },
   {
+    path: '/plant/list',
+    name: 'plant-list',
+    component: () => import('@/views/PlantListView.vue')
+  },
+  {
     path: '/plant/:id',
     name: 'plant-detail',
     component: () => import('@/views/PlantDetailView.vue')

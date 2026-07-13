@@ -11,7 +11,7 @@
 body {
   @include base-fontfamily;
   font-weight: 400;
-  color: #1a1a18;
+  color: var(--color-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -39,4 +39,13 @@ img {
 
 ul, ol {
   list-style: none;
+}
+
+.blind {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
 }

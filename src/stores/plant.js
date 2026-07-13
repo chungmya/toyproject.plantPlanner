@@ -1,26 +1,33 @@
 import { defineStore } from 'pinia'
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
+import axios from 'axios'
+
+const API_URL = 'http://localhost:3000/plants'
 
 export const usePlantStore = defineStore('plant', () => {
-  // localStorage에서 저장된 게 있으면 가져오고, 없으면 빈 배열
-  const saved = localStorage.getItem('plants')
-  const plants = ref(saved ? JSON.parse(saved) : [])
+  const plants = ref([])
 
-  watch(plants, (newValue) => {
-    localStorage.setItem('plants', JSON.stringify(newValue))
-  }, { deep:true})
-
-  function addPlant(plant) {
-    plants.value.push({ id: Date.now(), ...plant })
+  // 전체 목록 불러오기
+  async function fetchPlants() {
+    const response = await axios.get(API_URL)
+    plants.value = response.data
   }
 
-  function removePlant(id) {
-    plants.value = plants.value.filter(p => p.id !== id)
+  // 추가 (서버에 저장 후 목록 갱신)
+  async function addPlant(plant) {
+    await axios.post(API_URL, plant)
+    await fetchPlants()
+  }
+
+  // 삭제
+  async function removePlant(id) {
+    await axios.delete(`${API_URL}/${id}`)
+    await fetchPlants()
   }
 
   function getPlantById(id) {
     return plants.value.find(p => p.id === id)
   }
 
-  return { plants, addPlant, removePlant, getPlantById }
+  return { plants, fetchPlants, addPlant, removePlant, getPlantById }
 })
