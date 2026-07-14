@@ -37,7 +37,7 @@
       "speciesId": "25678",
       "status": "건강함",
       "adoptedAt": "2026-04-05",
-      "lastWateredAt": "2026-07-05",
+      "lastWateredAt": "2026-07-13",
       "wateringInterval": 4
     },
     {
@@ -157,7 +157,7 @@
       "speciesId": "9739",
       "status": "건강함",
       "adoptedAt": "2026-05-10",
-      "lastWateredAt": "2026-07-06",
+      "lastWateredAt": "2026-07-07",
       "wateringInterval": 7
     },
     {
@@ -167,7 +167,7 @@
       "speciesId": "25625",
       "status": "건강함",
       "adoptedAt": "2026-06-30",
-      "lastWateredAt": "2026-07-05",
+      "lastWateredAt": "2026-07-13",
       "wateringInterval": 4
     }
   ],

@@ -108,12 +108,17 @@ body {
     }
 
   .app__title {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 2;
-    text-align: right;
     border-bottom: 1px solid #eee;
     padding: 1rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    img {
+      height: 1.8rem;
+      width: auto;
+      display: block;
+    }
   }
 
   > main {

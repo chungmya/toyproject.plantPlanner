@@ -31,7 +31,8 @@ import { RouterLink } from "vue-router";
 import { ref, onMounted, onUnmounted } from "vue";
 
 import { usePlantStore } from "@/stores/plant";
-import PlantCard from "@/components/plant/PlantCard.vue";
+import PlantCard from "@/components/PlantCard.vue";
+import "@/assets/scss/pages/PlantListView.scss"; //scss 파일 import
 
 const plantStore = usePlantStore();
 

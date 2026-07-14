@@ -2,7 +2,8 @@ import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3000/plants'
+const API_URL = '/api/plants'
+
 
 export const usePlantStore = defineStore('plant', () => {
   const plants = ref([])
