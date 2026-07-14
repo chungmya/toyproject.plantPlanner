@@ -50,9 +50,9 @@ const route = useRoute();
         </p>
       </RouterLink>
       <RouterLink
-        to="/favorite"
+        to="/memorial"
         class="tab-bar__item"
-        :class="{ 'tab-bar__item--active': route.path === '/favorite' }"
+        :class="{ 'tab-bar__item--active': route.path === '/memorial' }"
       >
         <p class="menu-name">
           <i
