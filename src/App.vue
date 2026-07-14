@@ -24,19 +24,6 @@ const route = useRoute();
         </p>
       </RouterLink>
       <RouterLink
-        to="/diary"
-        class="tab-bar__item"
-        :class="{ 'tab-bar__item--active': route.path === '/diary' }"
-      >
-        <p class="menu-name">
-          <i
-            class="ti ti-notebook"
-            aria-hidden="true"
-          ></i>
-          <span>일지</span>
-        </p>
-      </RouterLink>
-      <RouterLink
         to="/plant/list"
         class="tab-bar__item"
         :class="{ 'tab-bar__item--active': route.path === '/plant/list' }"
@@ -47,6 +34,19 @@ const route = useRoute();
             aria-hidden="true"
           ></i>
           <span>식물</span>
+        </p>
+      </RouterLink>
+      <RouterLink
+        to="/diary"
+        class="tab-bar__item"
+        :class="{ 'tab-bar__item--active': route.path === '/diary' }"
+      >
+        <p class="menu-name">
+          <i
+            class="ti ti-notebook"
+            aria-hidden="true"
+          ></i>
+          <span>일지</span>
         </p>
       </RouterLink>
       <RouterLink
@@ -65,7 +65,10 @@ const route = useRoute();
     </nav>
   </div>
   <main>
-    <h1 class="app__title">MY Plant</h1>
+    <h1 class="app__title">
+      <img src="@/assets/images/logo.png" alt="MY Plant" />
+      <span class="blind">MY Plant</span>
+    </h1>
     <RouterView />
   </main>
 </template>
