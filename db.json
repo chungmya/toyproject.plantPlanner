@@ -7,17 +7,17 @@
       "speciesId": "21458",
       "status": "건강함",
       "adoptedAt": "2025-08-30",
-      "lastWateredAt": "2026-06-30",
+      "lastWateredAt": "2026-07-12",
       "wateringInterval": 10
     },
     {
       "id": "137882",
-      "name": "석화 (아데니움 오베숨)",
+      "name": "석화(아데니움 오베숨/큰거)",
       "species": "Adenium obesum",
       "speciesId": "26012",
       "status": "건강함",
       "adoptedAt": "2025-10-23",
-      "lastWateredAt": "2026-06-19",
+      "lastWateredAt": "2026-07-08",
       "wateringInterval": 15
     },
     {
@@ -26,13 +26,13 @@
       "species": "Drimia Intricata",
       "speciesId": "25847",
       "status": "건강함",
-      "adoptedAt": null,
+      "adoptedAt": "2026-08-23",
       "lastWateredAt": "2026-07-01",
       "wateringInterval": 20
     },
     {
       "id": "137920",
-      "name": "아스파라거스 나누스 플루모서스",
+      "name": "아스파라거스 나누스",
       "species": "Asparagus setaceus",
       "speciesId": "25678",
       "status": "건강함",
@@ -46,18 +46,18 @@
       "species": "Murraya paniculata",
       "speciesId": "25611",
       "status": "건강함",
-      "adoptedAt": null,
-      "lastWateredAt": "2026-07-05",
+      "adoptedAt":"2026-09-20",
+      "lastWateredAt": "2026-07-12",
       "wateringInterval": 6
     },
     {
       "id": "138182",
-      "name": "세로페기아 기키이",
+      "name": "세로페기아 기키이(작은거)",
       "species": "Ceropegia gikyi",
       "speciesId": "26374",
       "status": "건강함",
       "adoptedAt": "2026-01-10",
-      "lastWateredAt": "2026-06-28",
+      "lastWateredAt": "2026-07-10",
       "wateringInterval": 10
     },
     {
@@ -77,7 +77,7 @@
       "speciesId": null,
       "status": "건강함",
       "adoptedAt": "2025-10-02",
-      "lastWateredAt": "2026-06-27",
+      "lastWateredAt": "2026-07-12",
       "wateringInterval": 15
     },
     {
@@ -87,7 +87,7 @@
       "speciesId": "9739",
       "status": "건강함",
       "adoptedAt": "2025-09-20",
-      "lastWateredAt": "2026-06-28",
+      "lastWateredAt": "2026-07-08",
       "wateringInterval": 10
     },
     {
@@ -97,7 +97,7 @@
       "speciesId": null,
       "status": "건강함",
       "adoptedAt": "2026-01-10",
-      "lastWateredAt": "2026-06-19",
+      "lastWateredAt": "2026-07-10",
       "wateringInterval": 20
     },
     {
@@ -106,13 +106,13 @@
       "species": "Parodia scopa (Spreng.) N.P.Taylor",
       "speciesId": "26293",
       "status": "건강함",
-      "adoptedAt": null,
+      "adoptedAt": "2025-02-09",
       "lastWateredAt": "2026-06-21",
       "wateringInterval": 30
     },
     {
       "id": "139055",
-      "name": "세로페기아 기키이",
+      "name": "세로페기아 기키이(모체)",
       "species": "Ceropegia gikyi",
       "speciesId": "26374",
       "status": "건강함",
@@ -122,12 +122,12 @@
     },
     {
       "id": "139182",
-      "name": "석화 (아데니움 오베숨)",
+      "name": "석화(아데니움 오베숨/작은거)",
       "species": "Adenium obesum",
       "speciesId": "26012",
       "status": "건강함",
       "adoptedAt": "2025-08-26",
-      "lastWateredAt": "2026-06-28",
+      "lastWateredAt": "2026-07-08",
       "wateringInterval": 15
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "id": "142096",
-      "name": "석화 (아데니움 오베숨)",
+      "name": "석화(아데니움 오베숨/삽수)",
       "species": "Adenium obesum",
       "speciesId": "26012",
       "status": "건강함",
@@ -157,7 +157,7 @@
       "speciesId": "9739",
       "status": "건강함",
       "adoptedAt": "2026-05-10",
-      "lastWateredAt": "2026-07-07",
+      "lastWateredAt": "2026-07-12",
       "wateringInterval": 7
     },
     {

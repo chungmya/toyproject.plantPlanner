@@ -1,16 +1,24 @@
 <template>
-  <div class="plant-list">
-    <div class="home__banner">
-      <p class="home__banner-label">나의 반려 식물 리스트</p>
-      <div class="home__banner-top">
-        <h1 class="home__title">
-          우리집 반려 식물 리스트를 한눈에 확인해보세요. <br />식물의 상태와
-          물주기 정보를 관리할 수 있습니다.
-        </h1>
-      </div>
+  <div class="cont__inner plant-list__view">
+    <div class="tit__head">
+      <h2 class="tit__head-title">반려 식물 리스트</h2>
+      <p class="tit__head-sub">
+        식물의 상태와 물주기 정보를 관리할 수 있습니다.
+      </p>
     </div>
 
-    <div class="home__content">
+    <div class="plant-list__content">
+      <div class="tool-bar">
+        <RouterLink
+          to="/plant/add"
+          class="plant__add-btn"
+        >
+          <i
+            class="ti ti-circle-plus"
+            aria-hidden="true"
+          ></i>
+        </RouterLink>
+      </div>
       <ul class="plant-list">
         <PlantCard
           v-for="plant in plantStore.plants"
@@ -18,7 +26,7 @@
           :id="plant.id"
           :name="plant.name"
           :value="plant.species"
-          :status="plant.status"
+          :lastWateredAt="plant.lastWateredAt"
           @delete="handleDelete"
         />
       </ul>
@@ -40,7 +48,7 @@ const props = defineProps({
   id: Number,
   name: String,
   value: String,
-  status: String,
+  lastWateredAt: String,
   image: String,
 });
 

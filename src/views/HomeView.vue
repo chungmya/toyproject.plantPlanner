@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="cont__inner">
     <div class="home__banner">
       <div class="tit__head">
         <h2 class="tit__head-title">오.식.소</h2>
@@ -75,17 +75,26 @@
             :class="{ 'watering-list__item--overdue': plant.daysLeft <= 0 }"
           >
             <RouterLink :to="`/plant/${plant.id}`">
-              <strong class="watering-list__name">{{ plant.name }}</strong>
-              <span
-                class="watering-list__dday"
-                :class="`watering-list__dday--${getDdayStatus(plant.daysLeft)}`"
-                >{{
-                  plant.daysLeft <= 0
-                    ? `D + ${Math.abs(plant.daysLeft)}`
-                    : `D - ${plant.daysLeft}`
-                }}</span
-              >
+              <div>
+                <strong class="watering-list__name">{{ plant.name }}</strong>
+
+                <span
+                  class="watering-list__dday"
+                  :class="`watering-list__dday--${getDdayStatus(plant.daysLeft)}`"
+                  >{{
+                    plant.daysLeft <= 0
+                      ? `D + ${Math.abs(plant.daysLeft)}`
+                      : `D - ${plant.daysLeft}`
+                  }}</span
+                >
+              </div>
             </RouterLink>
+            <button
+              @click.stop="handleWatering(plant.id)"
+              class="watering-mark"
+            >
+              <i>💧</i>
+            </button>
           </li>
         </ul>
       </section>
@@ -154,5 +163,10 @@ function getDdayStatus(daysLeft) {
   if (daysLeft > 0) return "safe"; // 아직 여유 있음 → 초록
   if (daysLeft === 0) return "warn"; // 오늘! → 노란
   return "danger"; // 이미 지남 → 빨간
+}
+
+//handleWatering
+function handleWatering(id) {
+  plantStore.waterPlant(id);
 }
 </script>

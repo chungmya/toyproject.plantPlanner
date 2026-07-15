@@ -28,6 +28,8 @@
       ></i
       ><span>삭제</span>
     </button>
+
+    <button @click.stop="$emit('water', id)"><i>💧</i></button>
   </li>
 </template>
 
