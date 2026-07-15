@@ -13,6 +13,7 @@
           to="/plant/add"
           class="plant__add-btn"
         >
+          <span>식물 등록하기</span>
           <i
             class="ti ti-circle-plus"
             aria-hidden="true"
