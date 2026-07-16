@@ -27,8 +27,11 @@
           :id="plant.id"
           :name="plant.name"
           :value="plant.species"
+          :status="plant.status"
+          :image="plant.photo"
           :lastWateredAt="plant.lastWateredAt"
           @delete="handleDelete"
+          @water="handleWatering"
         />
       </ul>
     </div>
@@ -61,5 +64,10 @@ onMounted(() => {
 // 삭제 버튼 클릭 시 해당 식물 삭제
 function handleDelete(id) {
   plantStore.removePlant(id);
+}
+
+//물주기 버튼
+function handleWatering(id) {
+  plantStore.waterPlant(id);
 }
 </script>

@@ -4,32 +4,43 @@
     @click="goToDetail"
   >
     <div :class="['plant-card__thumb', `plant-card__thumb--${status}`]">
+      <img
+        v-if="image"
+        :src="image"
+        :alt="name"
+      />
       <i
+        v-else
         class="ti ti-flower"
         aria-hidden="true"
       ></i>
     </div>
-    <div class="plant-card__info">
-      <p class="plant-card__name">{{ name }}</p>
-      <p class="plant-card__type">{{ value }}</p>
-    </div>
-    <span
-      class="badge"
-      :class="`badge--${status}`"
-      >D+3</span
-    >
-    <button
-      class="plant-card__delete"
-      @click.stop="$emit('delete', id)"
-    >
-      <i
-        class="ti ti-trash"
-        aria-hidden="true"
-      ></i
-      ><span>삭제</span>
-    </button>
 
-    <button @click.stop="$emit('water', id)"><i>💧</i></button>
+    <div class="plant-card__actions">
+      <span
+        class="badge"
+        :class="`badge--${status}`"
+        >D+3</span
+      >
+
+      <div style="display: flex; gap: 0.6rem">
+        <button
+          class="watering-mark"
+          @click.stop="$emit('water', id)"
+        >
+          <i>💧</i>
+        </button>
+        <button
+          class="plant-card__delete"
+          @click.stop="$emit('delete', id)"
+        >
+          <i
+            class="ti ti-trash"
+            aria-hidden="true"
+          ></i>
+        </button>
+      </div>
+    </div>
   </li>
 </template>
 

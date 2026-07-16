@@ -165,7 +165,7 @@ function getDdayStatus(daysLeft) {
   return "danger"; // 이미 지남 → 빨간
 }
 
-//handleWatering
+//물주기 버튼
 function handleWatering(id) {
   plantStore.waterPlant(id);
 }
