@@ -121,16 +121,6 @@
       "wateringInterval": 20
     },
     {
-      "id": "139182",
-      "name": "석화(아데니움 오베숨/작은거)",
-      "species": "Adenium obesum",
-      "speciesId": "26012",
-      "status": "건강함",
-      "adoptedAt": "2025-08-26",
-      "lastWateredAt": "2026-07-08",
-      "wateringInterval": 15
-    },
-    {
       "id": "139185",
       "name": "하월시아",
       "species": "Haworthia cooperi",
@@ -157,7 +147,7 @@
       "speciesId": "9739",
       "status": "건강함",
       "adoptedAt": "2026-05-10",
-      "lastWateredAt": "2026-07-12",
+      "lastWateredAt": "2026-07-19",
       "wateringInterval": 7
     },
     {
@@ -167,7 +157,7 @@
       "speciesId": "25625",
       "status": "건강함",
       "adoptedAt": "2026-06-30",
-      "lastWateredAt": "2026-07-13",
+      "lastWateredAt": "2026-07-19",
       "wateringInterval": 4
     }
   ],
