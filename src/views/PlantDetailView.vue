@@ -1,14 +1,48 @@
 <template>
-  <div class="plant-detail" v-if="plant">
+  <div
+    class="plant-detail"
+    v-if="plant"
+  >
     <!-- 식물 상세 정보 -->
     <header class="plant-dtail__header">
-      <i class="ti ti-arrow-left" aria-hidden="true" @click="router.back()"> </i>
+      <i
+        class="ti ti-arrow-left"
+        aria-hidden="true"
+        @click="router.back()"
+      >
+      </i>
       <h1 class="plant-detail__title">{{ plant.name }}</h1>
     </header>
 
-    <img v-if="plant.photo" :src="plant.photo" class="plant-detail__photo" />
+    <img
+      v-if="plant.photo"
+      :src="plant.photo"
+      class="plant-detail__photo"
+    />
 
     <h2 class="plant-detail__name">{{ plant.name }}</h2>
+
+    <div class="tool-bar--list">
+      <button
+        class="plant-card-grid__delete"
+        aria-label="삭제"
+        @click="handleDelete"
+      >
+        <i
+          class="ti ti-trash"
+          aria-hidden="true"
+        ></i>
+      </button>
+      <button
+        class="plant-card-grid__edit"
+        aria-label="수정"
+      >
+        <i
+          class="ti ti-edit"
+          aria-hidden="true"
+        ></i>
+      </button>
+    </div>
 
     <div class="plant-detail__info">
       <div class="plant-detail__row">
@@ -31,17 +65,25 @@
 </template>
 
 <script setup>
-import { useRouter } from "vue-router";
-import { useRoute } from "vue-router";
+import { computed, onMounted } from "vue";
+import { useRouter, useRoute } from "vue-router";
 import { usePlantStore } from "@/stores/plant";
 import "@/assets/scss/pages/PlantDetailView.scss";
 
 const router = useRouter();
 const route = useRoute();
 const plantStore = usePlantStore();
-const plant = plantStore.getPlantById(Number(route.params.id));
 
-function getPlantById(id) {
-  return plantStore.value.find((p) => p.id == id);
+//해당 아이디 식물 찾기
+onMounted(() => {
+  plantStore.fetchPlants();
+});
+
+const plant = computed(() => plantStore.getPlantById(route.params.id));
+
+// 삭제 버튼 클릭 시 해당 식물 삭제
+function handleDelete() {
+  plantStore.removePlant(Number(route.params.id)); // 현재 페이지 식물 id 사용
+  router.push("/"); // 삭제 후 홈으로 이동
 }
 </script>

@@ -106,6 +106,9 @@
 import { RouterLink } from "vue-router";
 import { ref, onMounted, onUnmounted, computed } from "vue";
 
+import { getDaysLeft, getDdayStatus, formatDday } from "@/composables/usePlant";
+// 물주기 계산
+
 import { usePlantStore } from "@/stores/plant";
 import "@/assets/scss/pages/HomeView.scss"; //scss 파일 import
 // 배너 이미지 import
@@ -139,17 +142,7 @@ onUnmounted(() => {
   clearInterval(timer);
 });
 
-//물주기 임박한 식물 리스트
-function getDaysLeft(plant) {
-  const last = new Date(plant.lastWateredAt);
-  const today = new Date();
-  last.setHours(0, 0, 0, 0);
-  today.setHours(0, 0, 0, 0);
-
-  const elapsed = Math.floor((today - last) / (1000 * 60 * 60 * 24)); // 물 준 지 며칠 지났는지 계산
-  return plant.wateringInterval - elapsed; // 식물 물주기 - elapsed = 남은 일수 (마이너스이면 지남)
-}
-
+//물주기 급한 순서
 const wateringSoon = computed(() => {
   return plantStore.plants
     .filter((p) => p.lastWateredAt && p.wateringInterval) // 데이터 없는 애 제외
@@ -157,13 +150,6 @@ const wateringSoon = computed(() => {
     .filter((p) => p.daysLeft <= 3) // 3일 이내 + 지난 애들
     .sort((a, b) => a.daysLeft - b.daysLeft); // 급한 순
 });
-
-//D+ 별로 배경 컬러 다르게 하기
-function getDdayStatus(daysLeft) {
-  if (daysLeft > 0) return "safe"; // 아직 여유 있음 → 초록
-  if (daysLeft === 0) return "warn"; // 오늘! → 노란
-  return "danger"; // 이미 지남 → 빨간
-}
 
 //물주기 버튼
 function handleWatering(id) {

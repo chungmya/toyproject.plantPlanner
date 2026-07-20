@@ -1,5 +1,7 @@
 <script setup>
-import { useRouter } from 'vue-router'
+import { useRouter } from "vue-router";
+import { computed } from "vue";
+import { getDdayStatus, formatDday } from "@/composables/usePlant";
 
 const props = defineProps({
   id: Number,
@@ -8,28 +10,32 @@ const props = defineProps({
   status: String,
   image: String,
   daysLeft: Number,
-})
+});
 
-const emit = defineEmits(['delete', 'water'])
-const router = useRouter()
+const emit = defineEmits(["delete", "water"]);
+const router = useRouter();
 
 function goToDetail() {
-  router.push(`/plant/${props.id}`)
-}
-
-function getDdayStatus(daysLeft) {
-  if (daysLeft > 0) return 'safe'
-  if (daysLeft === 0) return 'warn'
-  return 'danger'
+  router.push(`/plant/${props.id}`);
 }
 </script>
 
 <template>
-  <li class="plant-card-grid" @click="goToDetail">
-
+  <li
+    class="plant-card-grid"
+    @click="goToDetail"
+  >
     <div class="plant-card-grid__thumb">
-      <img v-if="image" :src="image" :alt="name" />
-      <i v-else class="ti ti-flower" aria-hidden="true"></i>
+      <img
+        v-if="image"
+        :src="image"
+        :alt="name"
+      />
+      <i
+        v-else
+        class="ti ti-flower"
+        aria-hidden="true"
+      ></i>
     </div>
 
     <div class="plant-card-grid__body">
@@ -41,9 +47,7 @@ function getDdayStatus(daysLeft) {
           class="badge"
           :class="`badge--${getDdayStatus(daysLeft)}`"
         >
-          {{ daysLeft <= 0
-            ? `D+${Math.abs(daysLeft)}`
-            : `D-${daysLeft}` }}
+          {{ formatDday(daysLeft) }}
         </span>
 
         <div class="plant-card-grid__btns">
@@ -54,16 +58,8 @@ function getDdayStatus(daysLeft) {
           >
             <i>💧</i>
           </button>
-          <button
-            class="plant-card-grid__delete"
-            @click.stop="emit('delete', id)"
-            aria-label="삭제"
-          >
-            <i class="ti ti-trash" aria-hidden="true"></i>
-          </button>
         </div>
       </div>
     </div>
-
   </li>
 </template>

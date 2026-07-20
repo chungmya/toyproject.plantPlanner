@@ -21,7 +21,7 @@
         </RouterLink>
       </div>
       <ul class="plant-list">
-        <PlantCard
+        <PlantCardGrid
           v-for="plant in plantStore.plants"
           :key="plant.id"
           :id="plant.id"
@@ -29,8 +29,7 @@
           :value="plant.species"
           :status="plant.status"
           :image="plant.photo"
-          :lastWateredAt="plant.lastWateredAt"
-          @delete="handleDelete"
+          :daysLeft="getDaysLeft(plant)"
           @water="handleWatering"
         />
       </ul>
@@ -40,31 +39,19 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
-import { ref, onMounted, onUnmounted } from "vue";
-
+import { onMounted } from "vue";
 import { usePlantStore } from "@/stores/plant";
-import PlantCard from "@/components/PlantCard.vue";
+import PlantCardGrid from "@/components/plant/PlantCardGrid.vue";
+import { getDaysLeft } from "@/composables/usePlant";
+// 물주기 계산
 import "@/assets/scss/pages/PlantListView.scss"; //scss 파일 import
 
 const plantStore = usePlantStore();
-
-const props = defineProps({
-  id: Number,
-  name: String,
-  value: String,
-  lastWateredAt: String,
-  image: String,
-});
 
 onMounted(() => {
   // 식물 데이터 불러오기
   plantStore.fetchPlants();
 });
-
-// 삭제 버튼 클릭 시 해당 식물 삭제
-function handleDelete(id) {
-  plantStore.removePlant(id);
-}
 
 //물주기 버튼
 function handleWatering(id) {

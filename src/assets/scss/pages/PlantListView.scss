@@ -123,3 +123,89 @@
 }
 
 
+//plant-card-grid
+.plant-card-grid {
+  background: #fff;
+  border: 0.5px solid #d0d0cc;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  &__thumb {
+    width: 100%;
+    height: 14rem;
+    background: #f0f0ee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    i {
+      font-size: 3.2rem;
+      color: #888884;
+    }
+  }
+
+  &__body {
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  &__name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 0;
+    color: #1a1a18;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__type {
+    font-size: 1rem;
+    color: #888884;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  &__delete {
+    font-size: 1.4rem;
+    color: #ccc;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+      color: #e24b4a;
+    }
+  }
+}
+
+
