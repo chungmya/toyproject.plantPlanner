@@ -54,13 +54,6 @@ function getDdayStatus(daysLeft) {
           >
             <i>💧</i>
           </button>
-          <button
-            class="plant-card-grid__delete"
-            @click.stop="emit('delete', id)"
-            aria-label="삭제"
-          >
-            <i class="ti ti-trash" aria-hidden="true"></i>
-          </button>
         </div>
       </div>
     </div>
